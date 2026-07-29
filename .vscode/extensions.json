@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "Vue.volar",
+    "dbaeumer.vscode-eslint",
+    "EditorConfig.EditorConfig",
+    "oxc.oxc-vscode",
+    "esbenp.prettier-vscode",
+    "charliermarsh.ruff",
+    "ms-python.mypy-type-checker",
+    "detachhead.basedpyright",
+    "rvest.vs-code-prettier-eslint",
+    "DavidAnson.vscode-markdownlint",
+    "ms-python.python"
+  ]
+}
