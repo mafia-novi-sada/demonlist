@@ -1,0 +1,30 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: demonlist
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: yxzhin
+    email: yxzhin@gmail.com
+    affiliation: cirhalfstudio
+  - given-names: icvelyy
+    email: lolartemmaz@gmail.com
+identifiers:
+  - type: url
+    value: 'https://discord.gg/CggY22gNKu'
+    description: discord server
+repository-code: 'https://github.com/mafia-novi-sada/demonlist'
+url: 'https://yxzhin.uk'
+abstract: the demonlist of the Mafia of Novi Sad
+keywords:
+  - geometry dash
+  - demonlist
+  - fastapi
+  - vue.js
+license: GPL-3.0
+version: v0.1.0
+date-released: '2026-07-29'
