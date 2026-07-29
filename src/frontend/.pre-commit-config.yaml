@@ -1,0 +1,18 @@
+repos:
+  - repo: local
+    hooks:
+      - id: prettier-and-eslint-check
+        name: prettier and eslint check
+        entry: bun lint --
+        language: system
+        files: ^src/frontend/.*
+        pass_filenames: false
+
+  - repo: local
+    hooks:
+      - id: prettier-format
+        name: prettier format
+        entry: bun format --
+        language: system
+        files: ^src/frontend/.*
+        pass_filenames: false

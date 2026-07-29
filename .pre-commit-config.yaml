@@ -12,7 +12,6 @@ repos:
       - id: check-symlinks
       - id: check-toml
       - id: check-yaml
-      - id: check-json
       - id: check-xml
       - id: check-vcs-permalinks
       - id: debug-statements
@@ -33,7 +32,8 @@ repos:
           - --ignore-words-list=crate,te,nd
         exclude: |
           (?x)^(
-            uv\.lock
+            .*/uv\.lock
+            | .*/bun\.lock
             | .*\.svg
             | .*\.min\.(js|css)
           )$
